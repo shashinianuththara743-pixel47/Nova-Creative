@@ -1,0 +1,38 @@
+[
+    {
+        "title": "Travel Explorer",
+        "category": "Web Design",
+        "image": "",
+        "description": "A clean travel website that helps users discover destinations and plan their next trip."
+    },
+    {
+        "title": "FreshBite App",
+        "category": "UI/UX Design",
+        "image": "",
+        "description": "A simple food ordering app focused on fast navigation and an easy checkout experience."
+    },
+    {
+        "title": "Bright Business",
+        "category": "Web Development",
+        "image": "",
+        "description": "A responsive business website designed to present services and increase customer enquiries."
+    },
+    {
+        "title": "Creative Studio",
+        "category": "Web Design",
+        "image": "",
+        "description": "A modern studio landing page with strong typography, clear sections, and engaging calls to action."
+    },
+    {
+        "title": "FitTrack",
+        "category": "UI/UX Design",
+        "image": "",
+        "description": "A fitness dashboard concept that makes personal activity information easy to understand."
+    },
+    {
+        "title": "Event Hub",
+        "category": "Web Development",
+        "image": "",
+        "description": "An event discovery website with responsive layouts and user-friendly event information."
+    }
+]

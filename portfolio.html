@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Nova Creative portfolio projects.">
+    <title>Nova Creative | Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="site-header">
+        <nav class="navbar container" aria-label="Main navigation">
+            <a class="logo" href="index.html">Nova<span>Creative</span></a>
+
+            <button class="menu-button" id="menuButton" aria-label="Open navigation menu"
+                    aria-expanded="false" aria-controls="navMenu">☰</button>
+
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="index.html">Home</a></li>
+                <li><a class="active" href="portfolio.html">Portfolio</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><button class="theme-button" id="themeButton" aria-label="Toggle dark mode">🌙</button></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="page-hero">
+            <div class="container">
+                <p class="eyebrow">Selected Work</p>
+                <h1>My Portfolio</h1>
+                <p>Explore a selection of fictional projects created by Nova Creative.</p>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="container">
+                <div class="filter-bar" aria-label="Portfolio filters">
+                    <button class="filter-button active" data-filter="All">All</button>
+                    <button class="filter-button" data-filter="Web Design">Web Design</button>
+                    <button class="filter-button" data-filter="UI/UX Design">UI/UX Design</button>
+                    <button class="filter-button" data-filter="Web Development">Web Development</button>
+                </div>
+
+                <div class="project-grid" id="projectGrid" aria-live="polite">
+                    <p class="loading">Loading projects...</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-content">
+            <p>© 2026 Nova Creative. Fictional portfolio project.</p>
+            <a href="contact.html">Let's work together →</a>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
